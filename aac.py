@@ -196,7 +196,12 @@ class AACScraper:
             sentences[count] = sentences[count].lstrip()
             sentences[count] = sentences[count].rstrip()
             count += 1
+        #todo: implement me
+        return -1
 
+    def find_sex(self, description):
+        #todo: implement me
+        return ""
 
 '''
 main
